@@ -33,5 +33,27 @@
 //let total = 0;
 //let limit = 10;
 //for (let i = 0; i <=limit; i++) {
-//    console.log(i);
+//   total += i ;
+//  console.log("total partiel:",total);
 //}
+// console.log(total);
+
+// 06 - Reverse
+var sentence = "Hello Konexio !";
+var myArray = sentence.split("");
+
+// console.table(myArray);
+
+var result = [];
+
+for (var i = 0; i < myArray.length; i++) {
+    var item = myArray[i];
+    
+    // console.log("item", item);
+
+    result.unshift(item);
+}
+
+// console.table(result);
+
+console.log(result.join(""));
