@@ -12,8 +12,8 @@ console.log(total);
 
 let tout = 0
 for (let i=100; i <= 1000;i++) {
-  if (i % 7 == 0) {
-      tout = tout +1
+  if (i % 7 === 0) {
+      tout = tout +1 // ou tout++
   }
 }
 
@@ -32,4 +32,3 @@ for (let i= 1; i <=20; i++) {
         console.log(floor)
     }
 }
-
