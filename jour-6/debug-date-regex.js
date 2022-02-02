@@ -14,10 +14,14 @@
 // console.log(formatedDate);
 
 // 02 - age
+
 function calculateAge(date){
-let birthday = new Date('1983-05-24');
-console.log(birthday);
+
+let news = new Date();
+let age = news.getFullYear()-date -1;
+
+console.log(age);
 
 }
 
-let calculateAge = calculateAge('2022-02-22');
+calculateAge('1983');

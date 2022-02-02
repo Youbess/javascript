@@ -19,16 +19,21 @@ for (let i=100; i <= 1000;i++) {
 
 console.log(tout);
 
-// 03 -chanceux
+// 03 - chanceux
 
 let min = 1;
 let max = 6;
 let lancer = 20;
 
+let lancerTotal=0;
 
 for (let i= 1; i <=20; i++) {
     let floor = Math.floor(Math.random()*(max-min+1)+min);
     if ( floor >=5) {
-        console.log(floor)
+        lancerTotal = lancerTotal + floor;
     }
 }
+
+ console.log(lancerTotal);
+
+// 04 - les boites
